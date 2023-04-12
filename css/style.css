@@ -1,0 +1,15 @@
+h1{
+    height: 200px;
+   
+}
+
+img.photo{
+   width: 45vw; 
+   height: 45vw;
+}
+
+table {
+
+    border:1;
+    color: black;
+}
