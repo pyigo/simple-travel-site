@@ -1,24 +1,27 @@
+*{
+    background-color: lightgray;
+}
 h1{
-    size: 300px;
+    size: 100rem;
     color: black;
     text-align: center; 
 }
 
 p{
-    font-family: "Garamond", serif;
-    
+    font-family: "Garamond", serif; 
 }
-boxtest{
-    /* box model information 
+
+/* #boxtest{
+    box model information 
     -the content
     -the padding around the content
     -a margin around the border
-    */
+
     width: 500px;
     border: 1px solid red;
     padding: 10px;
     margin: 5px;
-}
+} */
 
 
 nav{
@@ -30,7 +33,7 @@ color: blue;
 
 }
 button:hover{
-    font-size: 50px;
+    font-size: 25px;
     color: red;
     cursor: pointer;
 }
