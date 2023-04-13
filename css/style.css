@@ -44,3 +44,7 @@ th, td{
     padding: 1rem;
     text-align: left;
 }
+
+.photo:hover{
+    border-radius: 50%;
+}
