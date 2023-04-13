@@ -1,13 +1,25 @@
 h1{
     size: 300px;
     color: black;
-    text-align: center;
-   
+    text-align: center; 
 }
 
 p{
-    font: Garamond (serif);
+    font-family: "Garamond", serif;
+    
 }
+boxtest{
+    /* box model information 
+    -the content
+    -the padding around the content
+    -a margin around the border
+    */
+    width: 500px;
+    border: 1px solid red;
+    padding: 10px;
+    margin: 5px;
+}
+
 
 nav{
     text-align: center;
@@ -18,7 +30,7 @@ color: blue;
 
 }
 button:hover{
-    size: 500px;
+    font-size: 50px;
     color: red;
     cursor: pointer;
 }
@@ -30,9 +42,7 @@ img.photo{
 }
 
 table {
-
-    width :100%;
-    
+    width :100%;  
 }
 
 table, tr, th, td{
